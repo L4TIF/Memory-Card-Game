@@ -2,6 +2,7 @@
   "name": "memory-card-game",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://l4tif.github.io/Memory-Card-Game/",
   "type": "module",
   "scripts": {
     "dev": "vite",
