@@ -13,7 +13,7 @@ const Gameboard = ({dataArray,updateScore}) => {
 
 
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6">
+    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 ">
         {sortdata.map((pokemon)=>{
          return  <Card handleClick={()=> handleClick(pokemon.id)}   pokemonData={pokemon} key={pokemon.name} />
         }

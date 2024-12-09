@@ -54,7 +54,7 @@ const App = () => {
   
 
   return (
-    <div> 
+    <div className="overflow-hidden"> 
       <h1 className="font-extrabold text-center text-red-600 text-2xl md:text-4xl">Pokemon Memory Game
 
       <svg className="w-14 md:w-28 p-0 inline-block " xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 100">
